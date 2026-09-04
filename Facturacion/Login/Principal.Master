@@ -1,0 +1,67 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Principal.master.cs" Inherits="Facturacion.Login.Principal" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Sistema de Facturacion</title>
+    <link href="/Imagenes/Favicon.png" type="image/x-icon" rel="shortcut icon" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div id="cabecera">
+                <div id="contenidoCabecera">
+                    <div id="barraHorizontal">
+                        <ul>
+                            <li><a href="/Login/Default.aspx">Inicio</a>
+                            <li><a href="../Mantenimiento/DefaultMantenimiento.aspx">Mantenimiento</a>
+                            <li><a href="../Mantenimiento/FrmEmpresa">Operaciones</a>
+                            <li><a href="../Mantenimiento/FrmEmpresa">Reportes</a>
+                            <li><a href="../Mantenimiento/FrmEmpresa">Seguridad</a>
+                            <li><a href="../Mantenimiento/FrmEmpresa">Utilitarios</a>
+                            <li><a href="../Mantenimiento/FrmEmpresa">Ayuda</a>
+                        </ul>
+                    </div>
+                    <div id="logotipo">
+                        <div class="row">
+                            <asp:Repeater ID="Repeater1" runat="server" >
+                                <ItemTemplate>
+                                    <div class="col-md-4">
+                                        <img class="img-responsive" src="data:image/jpg;base64,<%#Convert.ToBase64String((byte[])DataBinder.Eval(Container.DataItem,"Emp_Logo"))%>" alt="Alternate Text" />
+                                    </div>
+                                </ItemTemplate>
+                            </asp:Repeater>
+                        </div>
+                    </div>
+
+                    <div id="titulo">
+                        <h1>Sistema de Facturacion Electronica</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div id="bajo">
+                <div id="columnIzq">
+                    <asp:ContentPlaceHolder ID="contenidoMenuContextual" runat="server"></asp:ContentPlaceHolder>
+                </div>
+                <div id="columnCentro">
+                    <asp:ContentPlaceHolder ID="ContentPrincipal" runat="server"></asp:ContentPlaceHolder>
+                </div>
+                <div id="columnDer">
+
+                </div>
+                <div id="pie">
+                    <span id="copy">&nbsp &nbsp &nbsp &nbsp Copyright © 2026 / Version: 1.0 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Usuario: &nbsp</span>
+
+                    <asp:Label ID="LblIdentificacion" runat="server" ForeColor="Black" CssClass="LblIdentificacion" Text="" Font-Bold="true"></asp:Label>
+                </div>
+            </div>
+        </div>
+
+    </form>
+</body>
+</html>

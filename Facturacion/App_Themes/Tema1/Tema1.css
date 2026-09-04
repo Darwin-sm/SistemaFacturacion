@@ -1,0 +1,1228 @@
+﻿/********************************** Login **********************************/
+
+#Logo > h1 {
+    position: absolute;
+    top: 1px;
+    left: 530px;
+    font-size: 50px;
+}
+
+#Logo > h3 {
+    position: absolute;
+    top: 65px;
+    left: 430px;
+    font-size: 25px;
+}
+
+.CajasAlmacen {
+    position: absolute;
+    top: 253px;
+    left: 249px;
+}
+
+.PnlAcceso {
+    position: absolute;
+    top:250px;
+    left: 380px;
+}
+
+.LblControl {
+    position: absolute;
+    top: 7px;
+    left: 186px;
+}
+
+.PnlMensaje {
+    position: absolute;
+    top: 232px;
+    left: 0px;
+}
+
+.LblMensaje {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.ImgCerradura {
+    position: absolute;
+    top: 92px;
+    left: 13px;
+}
+
+.BtnAceptar {
+    position: absolute;
+    top: 177px;
+    left: 418px;
+}
+
+.TxtUsuario {
+    position: absolute;
+    top: 73px;
+    left: 250px;
+}
+
+.LblUsuario {
+    position: absolute;
+    top: 73px;
+    left: 170px;
+}
+
+.TxtClave {
+    position: absolute;
+    top: 133px;
+    left: 250px;
+}
+
+.LblClave {
+    position: absolute;
+    top: 133px;
+    left: 170px;
+}
+
+/********************************** Fin Login **********************************/
+/*********************************** Maquetación (Menú Principal) ***********************************/
+
+#cabecera {
+    height: 150px;
+    background-color: #FF7800;
+    color: white;
+    border: 1px dashed #A64E06;
+    box-shadow: 0px 0px 10px #000;
+    position: relative;
+    z-index: 2;
+}
+
+#contenidoCabecera {
+    width: 960px;
+    margin: auto;
+}
+
+#barraHorizontal {
+    height: 40px;
+    background-color: #A64E06;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 0px 10px #000 inset;
+    text-align: center;
+    width: 1260px;
+    margin-left: -150px;
+}
+
+#barraHorizontal > ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#barraHorizontal li {
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #FF9A40;
+    color: #A64E06;
+    box-shadow: 0px 0px 5px #000 inset;
+}
+
+#barraHorizontal li > a {
+    display: block;
+    color: #A64E06;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#logotipo {
+    width: 35%;
+    float: left;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.img-responsive {
+    width: 200px;
+    height: 90px;
+    position: absolute;
+    margin-left: -307px;
+}
+
+#titulo {
+    width: 60%;
+    float: left;
+    text-shadow: 2px 2px 3px #000;
+}
+
+#titulo > h1 {
+    margin-top: 36px;
+    margin-left: -100px;
+}
+#bajo {
+    width: 1260px;
+    margin: auto;
+    background-color: #FF9A40;
+    border-radius: 0px 0px 20px 20px;
+    overflow: auto;
+    box-shadow: 0px 0px 10px #000;
+}
+
+#columnIzq, #ColumnDer {
+    float: left;
+    width: 20%;
+    min-height: 692px;
+}
+
+#menuContextual {
+    list-style-type: none;
+    padding: 0;
+    margin: 3px 0;
+}
+
+    #menuContextual > li {
+        padding: 10px;
+        text-align: center;
+        background-color: #A64E06;
+        border: 1px outset #A64E06;
+        box-shadow: 0px 0px 10px #000 inset;
+    }
+
+        #menuContextual > li > a {
+            text-decoration: none;
+            color: white;
+        }
+
+#columnCentro {
+    float: left;
+    width: 67.9%;
+    min-height: 650px;
+    background-color: white;
+    box-shadow: 0px 0px 5px #000 inset;
+}
+
+    #columnCentro > img {
+        position: absolute;
+        margin-left: 138px;
+        margin-top: 90px;
+        width: 48%;
+    }
+
+#pie {
+    height: 30px;
+    background-color: #A64E06;
+    border-radius: 0px 0px 20px 20px;
+    clear: both;
+    box-shadow: 0px 0px 5px #000 inset;
+    color: white;
+    padding-top: 7px;
+}
+
+#copy {
+    position: absolute;
+    margin-top: 3px;
+}
+
+.LblIdentificacion {
+    position: absolute;
+    margin-left: 1060px;
+    margin-top: 3px;
+}
+
+
+/******************************** Mantenimiento botonera y mensaje ********************************/
+
+.PnlBotonera {
+    position: absolute;
+    margin-left: 860px;
+    margin-top: -62px;
+}
+
+.ImgAceptar {
+    position: absolute;
+    margin-top: 17px;
+    margin-left: 14px;
+}
+
+.ImbNuevo {
+    position: absolute;
+    margin-top: 87px;
+    margin-left: 14px;
+}
+
+.ImbCancelar {
+    position: absolute;
+    margin-top: 157px;
+    margin-left: 14px;
+}
+
+.ImbBuscar {
+    position: absolute;
+    margin-top: 227px;
+    margin-left: 14px;
+}
+
+.ImbModificar {
+    position: absolute;
+    margin-top: 297px;
+    margin-left: 14px;
+}
+
+.ImbPrinter {
+    position: absolute;
+    margin-top: 367px;
+    margin-left: 14px;
+}
+
+.ImgBarraAzul {
+    position: relative;
+    margin-top: 276px;
+    margin-left: 1px;
+}
+
+.LblMensaje2 {
+    position: absolute;
+    margin-top: -3px;
+    margin-left: 74px;
+}
+
+/******************************** Fin Mantenimiento botonera y mensaje ********************************/
+
+
+/******************************** FrmEmpresa ********************************/
+
+.PnlDatos {
+    position: absolute;
+    margin-top: -298px;
+    margin-left: 38px;
+}
+
+.ImgLogo {
+    position: absolute;
+    margin-top: -9px;
+    margin-left: 77px;
+}
+
+.img-1 {
+    border-color: black;
+    border-style: solid;
+    width: 180px;
+    height: 100px;
+    margin-left: 57px;
+}
+
+#file {
+    cursor: pointer;
+}
+
+.file-wrapper {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    height: 50px;
+    margin-left: 5px;
+}
+.Telefono {
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 313px;
+}
+
+.RNC {
+    position: absolute;
+    margin-top: 210px;
+    margin-left: 313px;
+}
+
+.TxtNombre {
+    position: absolute;
+    margin-top: 58px;
+    margin-left: 393px;
+}
+
+.TxtDireccion {
+    position: absolute;
+    margin-top: 108px;
+    margin-left: 393px;
+}
+
+.TxtTelefono {
+    position: absolute;
+    top: 325px;
+    left: 393px;
+}
+
+.TxtRNC {
+    position: absolute;
+    top: 375px;
+    left: 393px;
+}
+
+/******************************** Fin FrmEmpresa ********************************/
+
+/*********************************** FrmCajas y FrmBodegas ***********************************/
+
+.LblCodigo {
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 225px;
+}
+
+.TxtCodigo {
+    position: absolute;
+    margin-top: 58px;
+    margin-left: 320px;
+    text-align: right;
+}
+
+.PnlPanel {
+    z-index: 5;
+    position: absolute;
+    Color: black;
+    Font-Size: medium;
+    font-weight: bold;
+    left: 304px;
+    top: 520px;
+}
+
+.LblReferencia {
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 225px;
+}
+
+.TxtReferenciaCaja {
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 320px;
+}
+
+.PnlGrillaCaja {
+    z-index: 4;
+    position: absolute;
+    Color: black;
+    Font-Size: medium;
+    font-weight: bold;
+    left: 302px;
+    top: 520px;
+}
+
+.LblDescripcion {
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 225px;
+}
+
+.TxtDescripcion {
+    position: absolute;
+    top: 158px;
+    left: 320px;
+}
+
+/*********************************** Fin FrmCajas y FrmBodegas ***********************************/
+
+
+
+/*********************************** FrmClientes ***********************************/
+
+.LblCodigoCliente {
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 15px;
+}
+
+.LblRNCliente {
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 15px;
+}
+
+.LblPaginaCliente {
+    position: absolute;
+    margin-top: 133px;
+    margin-left: 15px;
+}
+
+.LblTipoCliente {
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 208px;
+}
+
+.LblContactoCliente {
+    position: absolute;
+    margin-top: 53px;
+    margin-left: 15px;
+}
+
+.LblCelularCliente {
+    position: absolute;
+    margin-top: 173px;
+    margin-left: 15px;
+}
+
+.LblNombreCliente {
+    position: absolute;
+    margin-top: 14px;
+    margin-left: 524px;
+}
+
+.LblCargoCliente {
+    position: absolute;
+    margin-top: 93px;
+    margin-left: 15px;
+}
+
+.LblCorreoCliente {
+    position: absolute;
+    margin-top: 213px;
+    margin-left: 15px;
+}
+
+
+.TxtCodigoCliente {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 80px;
+    text-align: right;
+}
+
+.TxtRNCliente {
+    position: absolute;
+    margin-top: 11px;
+    margin-left: 93px;
+}
+
+.TxtPaginaCliente {
+    position: absolute;
+    margin-top: 131px;
+    margin-left: 93px;
+}
+
+.TxtTipoCliente {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 308px;
+}
+
+.TxtContactoCliente {
+    position: absolute;
+    margin-top: 51px;
+    margin-left: 93px;
+    top: 0px;
+    left: 0px;
+}
+
+.TxtCelularCliente {
+    position: absolute;
+    margin-top: 169px;
+    margin-left: 93px;
+}
+
+.TxtNombreCliente {
+    position: absolute;
+    top: 12px;
+    left: 596px;
+}
+
+.TxtCargoCliente {
+    position: absolute;
+    margin-top: 91px;
+    margin-left: 93px;
+}
+
+.TxtCorreoCliente {
+    position: absolute;
+    margin-top: 209px;
+    margin-left: 93px;
+}
+
+.TxtTelefonoCliente {
+    position: absolute;
+    margin-top: 131px;
+    margin-left: 93px;
+}
+
+.PnlDatosGeneral {
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 39px;
+}
+
+.TxtCedulaCliente {
+    position: absolute;
+    margin-top: 51px;
+    margin-left: 93px;
+    top: 0px;
+    left: 0px;
+}
+
+.PnlPanel2Clientes {
+    z-index: 4;
+    position: absolute;
+    Color: black;
+    Font-Size: medium;
+    font-weight: bold;
+    left: 302px;
+    top: 532px;
+}
+
+.PnlLinea1 {
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 0px;
+}
+
+.PnlEmpresarial {
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 0px;
+}
+
+.PnlPanelCliente {
+    z-index: 5;
+    position: absolute;
+    Color: black;
+    Font-Size: medium;
+    font-weight: bold;
+    left: 304px;
+    top: 532px;
+}
+
+.DdlPais {
+    position: absolute;
+    margin-top: 51px;
+    margin-left: 93px;
+}
+
+/*********************************** Fin FrmClientes ***********************************/
+
+/*********************************** FrmProducto ***********************************/
+
+.LblFechaCompra {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 2px;
+}
+
+.TxtFechaCompra {
+    position: absolute;
+    margin-top: 28px;
+    margin-left: 136px;
+}
+
+.ImbCalendarioCompra {
+    position: absolute;
+    margin-top: 30.2px;
+    margin-left: 225px;
+}
+
+.PnlCalendario {
+    z-index: 5;
+    position: absolute;
+    Color: black;
+    Font-Size: medium;
+    font-weight: bold;
+    left: 248px;
+    top: 28px;
+}
+
+.LblNombreProducto {
+    position: absolute;
+    margin-top: 4px;
+    margin-left: 314px;
+}
+
+.TxtNombreProducto {
+    position: absolute;
+    margin-top: 1.6px;
+    margin-left: 449px;
+}
+
+.PnlIdentificacion {
+    position: absolute;
+    left: 4px;
+    top: 4px;
+}
+
+.TxtCodigoProducto {
+    position: absolute;
+    margin-top: 2px;
+    margin-left: 63px;
+}
+
+.LblCodigoProducto {
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 1px;
+}
+
+
+.LblPrecioLetrero {
+    position: absolute;
+    margin-top: -255px;
+    margin-left: 197px;
+}
+
+.LblClasificacionLetrero {
+    position: absolute;
+    margin-top: -255px;
+    margin-left: 560px;
+}
+
+.PnlPrecio {
+    position: absolute;
+    left: 308px;
+    top: 300px;
+}
+
+.PnlCategoria {
+    position: absolute;
+    left: 728px;
+    top: 300px;
+}
+
+.PnlFormaVenta {
+    position: absolute;
+    left: 728px;
+    top: 388px;
+}
+
+.PnlBodegas {
+    position: absolute;
+    left: 580px;
+    top: 300px;
+}
+
+.PnlStatus {
+    position: absolute;
+    left: 308px;
+    top: 388px;
+}
+
+.PnlProducto {
+    position: absolute;
+    left: 308px;
+    top: 420px;
+}
+
+.TxtPrecioCompra {
+    position: absolute;
+    margin-top: 2px;
+    left: 153px;
+    text-align: right;
+}
+
+.TxtPrecioCompraUS {
+    position: absolute;
+    margin-top: 38px;
+    left: 153px;
+    text-align: right;
+}
+
+.LblPrecioCompra {
+    position: absolute;
+    margin-top: 3px;
+    left: 1px;
+}
+
+
+.TxtCantidadInicial {
+    position: absolute;
+    margin-top: 50px;
+    left: 135px;
+    text-align: right;
+}
+
+.LblCantidadInicial {
+    position: absolute;
+    margin-top: 53px;
+    left: 1px;
+}
+
+.ChbFisico {
+    position: absolute;
+    margin-top: 3px;
+    left: 120px;
+}
+
+.ChbServicio {
+    position: absolute;
+    margin-top: 3px;
+    left: 200px;
+}
+
+.ChbOcasional {
+    position: absolute;
+    margin-top: 3px;
+    left: 293px;
+}
+
+.ChbStatus {
+    position: absolute;
+    margin-top: 3px;
+    left: 151px;
+}
+
+.ChbAplicarItebis {
+    position: absolute;
+    margin-top: 4px;
+    left: 390px;
+}
+
+.LblAplicarItebis {
+    position: absolute;
+    margin-top: 3px;
+    left: 285px;
+}
+
+.LblPrecioCompraUS {
+    position: absolute;
+    margin-top: 40px;
+    left: 1px;
+}
+
+.LblBodegas {
+    position: absolute;
+    margin-top: 0px;
+    left: 43px;
+}
+
+.DdlBodega {
+    position: absolute;
+    margin-top: 18px;
+    left: 4px;
+}
+
+
+.DdlCategoria {
+    position: absolute;
+    margin-top: 3px;
+    left: 150px;
+}
+
+.LblUbicacion {
+    position: absolute;
+    margin-top: 42px;
+    left: 13px;
+}
+
+.DdlUbicacion {
+    position: absolute;
+    margin-top: 58px;
+    left: 4px;
+}
+
+.LblSubCategoria {
+    position: absolute;
+    margin-top: 32px;
+    left: 2px;
+}
+
+.DdlSubCategoria {
+    position: absolute;
+    margin-top: 29px;
+    left: 150px;
+}
+
+.LblReferencia {
+    position: absolute;
+    margin-top: 59px;
+    left: 2px;
+}
+
+.TxtReferencia {
+    position: absolute;
+    margin-top: 54px;
+    left: 170px;
+}
+
+.TxtContiene {
+    position: absolute;
+    margin-top: 30px;
+    left: 150px;
+    text-align: right;
+}
+
+.LblUnid {
+    position: absolute;
+    margin-top: 36px;
+    left: 270px;
+    text-align: right;
+}
+
+.LblUnidCompra {
+    position: absolute;
+    margin-top: 94px;
+    left: 270px;
+    text-align: right;
+}
+
+/*********************************** Fin FrmProducto ***********************************/
+
+/*********************************** FrmSuplidores ***********************************/
+
+.LblCodigoSuplidores {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.TxtCodigoSuplidores {
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 68px;
+    text-align: right;
+}
+
+.LblNombreSuplidores {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 180px;
+}
+
+.TxtNombreSuplidores {
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 250px;
+}
+
+.LblDireccionSuplidores {
+    position: absolute;
+    margin-top: 55px;
+    margin-left: 5px;
+}
+
+.TxtDireccionSuplidores {
+    position: absolute;
+    margin-top: 53px;
+    margin-left: 85px;
+}
+
+.TxtTelefonoSuplidores {
+    position: absolute;
+    margin-top: 88px;
+    margin-left: 86px;
+}
+
+.TxtTelefonoMovil {
+    position: absolute;
+    margin-top: 88px;
+    margin-left: 400px;
+}
+
+.LblTelefonoSuplidores {
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 5px;
+}
+
+.LblTelefonoMovil {
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 305px;
+}
+
+.LblExtensionSuplidores {
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 205px;
+}
+
+.TxtExtensionSuplidores {
+    position: absolute;
+    margin-top: 87px;
+    margin-left: 243px;
+    text-align: right;
+}
+
+.LblContacto {
+    position: absolute;
+    margin-top: 125px;
+    margin-left: 5px;
+}
+
+.TxtContacto {
+    position: absolute;
+    margin-top: 123px;
+    margin-left: 85px;
+}
+
+.LblCorreo {
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 5px;
+}
+
+.TxtCorreo {
+    position: absolute;
+    margin-top: 158px;
+    margin-left: 85px;
+}
+
+.LblTipoNegocio {
+    position: absolute;
+    margin-top: 162px;
+    margin-left: 315px;
+}
+
+.DdlTipoNegocio {
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 419px;
+}
+
+.LblPaisSuplidores {
+    position: absolute;
+    margin-top: 53px;
+    margin-left: 537px;
+}
+
+.DdlPaisSuplidores {
+    position: absolute;
+    margin-top: 53px;
+    margin-left: 638px;
+}
+
+.LblProvinciaSuplidores {
+    position: absolute;
+    margin-top: 79px;
+    margin-left: 537px;
+}
+
+.DdlProvinciaSuplidores {
+    position: absolute;
+    margin-top: 78px;
+    margin-left: 638px;
+}
+
+.LblRNCedula {
+    position: absolute;
+    margin-top: 125px;
+    margin-left: 537px;
+}
+
+.TxtRNCedula {
+    position: absolute;
+    margin-top: 131px;
+    margin-left: 638px;
+}
+
+.LblStatus {
+    position: absolute;
+    margin-top: 195px;
+    margin-left: 5px;
+}
+
+.ChbStatusSuplidor {
+    position: absolute;
+    margin-top: 196px;
+    margin-left: 133px;
+}
+
+.LblCodPostal {
+    position: absolute;
+    margin-top: 106px;
+    margin-left: 537px;
+}
+
+.TxtCodPostal {
+    position: absolute;
+    margin-top: 103px;
+    margin-left: 638px;
+}
+
+.LblRegistroIndustrial {
+    position: absolute;
+    margin-top: 162px;
+    margin-left: 537px;
+}
+
+.TxtRegistroIndustrial {
+    position: absolute;
+    margin-top: 159px;
+    margin-left: 638px;
+}
+
+.LblEmpresa {
+    position: absolute;
+    margin-top: 195px;
+    margin-left: 165px;
+}
+
+.DdlEmpresa {
+    position: absolute;
+    margin-top: 194px;
+    margin-left: 243px;
+}
+
+.PnlAdicionales {
+    position: absolute;
+    margin-top: 229px;
+    margin-left: 5px;
+}
+
+.PnlGrillaSuplidores {
+    z-index: 4;
+    position: absolute;
+    Color: black;
+    Font-Size: medium;
+    font-weight: bold;
+    left: 302px;
+    top: 620px;
+}
+
+.PnlPanelSuplidores {
+    z-index: 5;
+    position: absolute;
+    Color: black;
+    Font-Size: medium;
+    font-weight: bold;
+    left: 304px;
+    top: 620px;
+}
+
+.LblCredito {
+    position: absolute;
+    margin-top: 4px;
+    margin-left: 2px;
+}
+
+.TxtCredito {
+    position: absolute;
+    margin-top: 2px;
+    margin-left: 102px;
+    text-align: right;
+}
+
+.LblDescuento {
+    position: absolute;
+    margin-top: 4px;
+    margin-left: 255px;
+}
+
+.TxtDescuento {
+    position: absolute;
+    margin-top: 2px;
+    margin-left: 357px;
+    text-align: right;
+}
+
+.LblTermino {
+    position: absolute;
+    margin-top: 38px;
+    margin-left: 2px;
+}
+
+.TxtTermino {
+    position: absolute;
+    margin-top: 37px;
+    margin-left: 102px;
+}
+
+.PnlDivision {
+    position: absolute;
+    margin-top: 65px;
+    margin-left: 2px;
+}
+
+.LblAplicaImpuesto {
+    position: absolute;
+    margin-top: 78px;
+    margin-left: 2px;
+}
+
+.ChbAplicaImpuestoSi {
+    position: absolute;
+    margin-top: 78px;
+    margin-left: 252px;
+    top: 0px;
+    left: 0px;
+}
+
+.ChbAplicaImpuestoNo {
+    position: absolute;
+    margin-top: 78px;
+    margin-left: 300px;
+}
+
+.PnlDivision2 {
+    position: absolute;
+    margin-top: 105px;
+    margin-left: 2px;
+}
+
+.LblAplicaRetencion {
+    position: absolute;
+    margin-top: 118px;
+    margin-left: 2px;
+}
+
+.ChbAplicaRetencionSi {
+    position: absolute;
+    margin-top: 118px;
+    margin-left: 252px;
+    pointer-events: none;
+}
+
+.ChbAplicaRetencionNo {
+    position: absolute;
+    margin-top: 118px;
+    margin-left: 300px;
+    pointer-events: none;
+}
+
+/*********************************** Fin FrmSuplidores ***********************************/
+/*********************************** Frme-CT ***********************************/
+
+.LblComprobantee-CF {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.LblSeriee-CF {
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 5px;
+}
+
+.LblTipoComprobante-CF {
+    position: absolute;
+    margin-top: 65px;
+    margin-left: 5px;
+}
+
+.LblSecuenciae-CF {
+    position: absolute;
+    margin-top: 95px;
+    margin-left: 5px;
+}
+
+.DdlComprobante {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 150px;
+}
+
+.LblSerieEe-CF {
+    position: absolute;
+    margin-top: 31px;
+    margin-left: 150px;
+}
+
+.LblTipoComprobante2e-CF {
+    position: absolute;
+    margin-top: 62px;
+    margin-left: 150px;
+}
+
+.TxtSecuenciae-CF {
+    position: absolute;
+    margin-top: 95px;
+    margin-left: 150px;
+    text-align: right;
+}
+
+.LblFechae-CF {
+    position: absolute;
+    margin-top: 125px;
+    margin-left: 5px;
+}
+
+/*********************************** Fin Frme-CT ***********************************/
