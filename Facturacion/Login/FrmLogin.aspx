@@ -12,7 +12,7 @@
     <title>Sistema de Facturacion</title>
 
     <style type="text/css">
-        body{ background-image:url('/Imagenes/Fondo1.jpg') }
+        body{ background-image:url('/Imagenes/Fondo1.jpg'); }
     </style>
 </head>
 <body>
@@ -51,7 +51,6 @@
             <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
 
             <asp:Timer ID="Timer1" runat="server" Interval="5000" Enabled="false" OnTick="Timer1_Tick1"></asp:Timer>
-            
         </div>
     </form>
 </body>

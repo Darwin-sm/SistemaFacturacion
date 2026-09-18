@@ -40,7 +40,6 @@ namespace Facturacion.Login
                 if (dr.Read())
                 {
                     Session["Log_Status"] = dr["Log_Status"].ToString();
-                    //Session["Log_Codigo"] = dr["Log_Codigo"];
                     Session["Log_Usuario1"] = TxtUsuario.Text;
                     Session["Log_Nombre"] = dr["Log_Nombre"].ToString();
                     Session["Log_Apellido"] = dr["Log_Apellido"].ToString();
@@ -76,7 +75,7 @@ namespace Facturacion.Login
             catch (Exception ex)
             {
                 Response.Write(ex);
-                //LblMensaje.Text = "Mensaje: No hay conexion con la Base de Datos";
+                LblMensaje.Text = "Mensaje: No hay conexion con la Base de Datos";
             }
             finally
             {
@@ -85,8 +84,8 @@ namespace Facturacion.Login
         }
 
         protected void Timer1_Tick1(object sender, EventArgs e)
-        {   
-            if(LblMensaje.Text == "Mensaje.: Login Correcto")
+        {
+            if (LblMensaje.Text == "Mensaje.: Login Correcto")
             {
                 Session["Log_Usuario"] = LblMensaje.Text;
                 Response.Redirect("~/Login/Default.aspx");

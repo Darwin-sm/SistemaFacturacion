@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace Facturacion.Mantenimiento
 {
-    public partial class DefaultMantenimiento : System.Web.UI.Page
+    public partial class DefaultMantenimiento1 : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

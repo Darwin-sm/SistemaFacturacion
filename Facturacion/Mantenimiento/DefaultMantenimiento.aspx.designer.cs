@@ -11,7 +11,7 @@ namespace Facturacion.Mantenimiento
 {
 
 
-    public partial class DefaultMantenimiento
+    public partial class DefaultMantenimiento1
     {
     }
 }
